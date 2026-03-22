@@ -6,7 +6,6 @@ con = mysql.connector.connect(
     password="1234",
     database="studentdb"
 )
-
 cursor = con.cursor()
 
 while True:
